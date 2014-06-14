@@ -1,0 +1,44 @@
+{
+    "name": "slush-burp",
+    "description": "A modern and as fast as a burp slush-generator that scaffolds out a front-end template",
+    "version": "1.0.0",
+    "homepage": "https://github.com/acauamontiel/slush-burp",
+    "author": {
+        "name": "Acauã Montiel",
+        "email": "contato@acauamontiel.com.br"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/acauamontiel/slush-burp.git"
+    },
+    "bugs": {
+        "url": "https://github.com/acauamontiel/slush-burp/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/acauamontiel/slush-burp/blob/master/LICENSE"
+    }],
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "dependencies": {
+        "gulp": "^3.6.2",
+        "gulp-template": "^0.1.1",
+        "gulp-install": "^0.1.4",
+        "gulp-conflict": "^0.1.1",
+        "gulp-rename": "^1.2.0",
+        "underscore.string": "^2.3.3",
+        "inquirer": "^0.4.1"
+    },
+    "peerDependencies": {
+        "slush": ">=1.0.0"
+    },
+    "keywords": [
+        "slushgenerator"
+    ]
+}
