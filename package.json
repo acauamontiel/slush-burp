@@ -5,7 +5,8 @@
     "homepage": "https://github.com/acauamontiel/slush-burp",
     "author": {
         "name": "Acauã Montiel",
-        "email": "contato@acauamontiel.com.br"
+        "email": "contato@acauamontiel.com.br",
+        "url": "http://acauamontiel.com.br"
     },
     "repository": {
         "type": "git",

@@ -1,0 +1,4 @@
+<% if(jsLib === 'mantis-js') { %>script(src="dependencies/mantis-js/mantis.min.js")
+<% } else if(jsLib.indexOf('jquery') !== -1) { %>script(src="dependencies/jquery/dist/jquery.min.js")
+<% } else if(jsLib === 'zepto-js') { %>script(src="dependencies/zepto/zepto.min.js")
+<% } %>script(src="js/app.js")

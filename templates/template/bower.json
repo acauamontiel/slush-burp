@@ -1,0 +1,23 @@
+{
+  "name": "<%= appNameSlug %>",
+  "version": "0.1.0",
+  "authors": [
+    "Author Name <author@email.com>"
+  ],
+  "description": "<%= appDescription %>",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+<% if(jsLib === 'mantis-js') { %>    "mantis-js": "*"
+<% } else if(jsLib === 'jquery-1') { %>    "jquery": "1.*"
+<% } else if(jsLib === 'jquery-2') { %>    "jquery": "2.*"
+<% } else if(jsLib === 'zepto-js') { %>    "zepto": "latest"
+<% } %>  }
+}

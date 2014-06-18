@@ -2,7 +2,7 @@
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/acauamontiel/slush-burp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
-> A modern and as fast as a burp slush-generator that scaffolds out a front-end template
+> A modern and as fast as a burp slush-generator that scaffolds out a [BURP Template](https://github.com/acauamontiel/burp)
 
 
 Getting Started
